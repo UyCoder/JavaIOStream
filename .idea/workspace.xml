@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e09333-fac4-418c-a078-3c550612b604" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/MyOwnProject/MyDownloaderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/MyOwnProject/Utils/AudioDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/MyOwnProject/Utils/DocumentDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/MyOwnProject/Utils/DownloaderPics.java" afterDir="false" />
-    </list>
+    <list default="true" id="93e09333-fac4-418c-a078-3c550612b604" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,11 +94,23 @@
       <updated>1676242311817</updated>
       <workItem from="1676242313116" duration="382000" />
       <workItem from="1676305114025" duration="7753000" />
-      <workItem from="1676314363963" duration="1427000" />
+      <workItem from="1676314363963" duration="1539000" />
     </task>
+    <task id="LOCAL-00001" summary="finished MyProject">
+      <created>1676324241431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676324241431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished MyProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished MyProject" />
   </component>
 </project>
