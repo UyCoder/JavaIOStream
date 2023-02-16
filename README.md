@@ -1,5 +1,5 @@
 # My Own Downloader App
-A Java application for downloading pictures, audio files, and documents from a given URL.
+ A Java application for downloading pictures, audio files, and documents from a given URL.
 
 ## 🚀 Quick Start
 
@@ -34,10 +34,6 @@ A Java application for downloading pictures, audio files, and documents from a g
 - Implement document downloader
 - Add GUI using JavaFX
 - Implement video downloader
-
-
-##  📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 ## 👨‍💻 Contact me
