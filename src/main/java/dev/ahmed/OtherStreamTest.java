@@ -7,7 +7,7 @@ import java.io.*;
  * Use of other streams
      * 1. Standard input and output streams
      * 2. Print stream
-     * 3. Data flow
+     * 3. Data stream
  *
  * @author ahmed Bughra
  * @create 2023 02 19
@@ -16,15 +16,15 @@ public class OtherStreamTest {
 
     /*
     1. Standard input and output streams
-    1.1
-    System.in: standard input stream, default input from the keyboard
-    System.out: Standard output stream, output from the console by default
-    1.2
-    The setIn(InputStream is) / setOut(PrintStream ps) method of the System class redesignates the input and output streams.
+        1.1
+        System.in: standard input stream, default input from the keyboard
+        System.out: Standard output stream, output from the console by default
+        1.2
+        The setIn(InputStream is) / setOut(PrintStream ps) method of the System class redesignates the input and output streams.
 
-    1.3 Exercises:
-    Input a character string from the keyboard, and it is required to convert the entire line of character strings read into uppercase output. Then proceed with the input operation,
-    Until when "e" or "exit" is input, the program exits.
+        1.3 Exercises:
+        Input a character string from the keyboard, and it is required to convert the entire line of character strings read into uppercase output. Then proceed with the input operation,
+        Until when "e" or "exit" is input, the program exits.
 
     Method 1: Use Scanner to implement, call next() to return a string
     Method 2: Use System.in to achieve. System.in ---> Conversion Stream ---> BufferedReader's readLine()
@@ -35,7 +35,6 @@ public class OtherStreamTest {
         try {
             InputStreamReader isr = new InputStreamReader(System.in);
             br = new BufferedReader(isr);
-
             while (true) {
                 System.out.println("Please enter a string: ");
                 String data = br. readLine();
@@ -43,10 +42,8 @@ public class OtherStreamTest {
                     System.out.println("The end of the program");
                     break;
                 }
-
                 String upperCase = data.toUpperCase();
                 System.out.println(upperCase);
-
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -57,18 +54,13 @@ public class OtherStreamTest {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
         }
     }
 /*
      2. Print stream: PrintStream and PrintWriter
-
-     2.1 provides a series of overloaded print() and println()
-     2.2 Exercise:
-
-
-
+             2.1 provides a series of overloaded print() and println()
+             2.2 Exercise:
       */
 
     @Test
@@ -82,15 +74,12 @@ public class OtherStreamTest {
                 System. setOut(ps);
             }
 
-
             for (int i = 0; i <= 255; i++) { // output ASCII characters
                 System.out.print((char) i);
                 if (i % 50 == 0) { // every 50 data rows
                     System.out.println(); // Newline
                 }
             }
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } finally {
@@ -98,15 +87,13 @@ public class OtherStreamTest {
                 ps.close();
             }
         }
-
     }
     /*
-         3. Data flow
-         3.1 DataInputStream and DataOutputStream
-         3.2 Function: used to read or write variables or strings of basic data types
+         3. Data Stream
+             3.1 DataInputStream and DataOutputStream
+             3.2 Function: used to read or write variables or strings of basic data types
 
          Exercise: Write strings in memory and variables of basic data types to files.
-
          Note: To handle exceptions, try-catch-finally should still be used.
           */
     @Test
@@ -122,12 +109,9 @@ public class OtherStreamTest {
         dos. flush();
         //3.
         dos. close();
-
-
     }
     /*
     Read the basic data type variables and character strings stored in the file into the memory and save them in the variables.
-
     Note: the order of reading different types of data should be the same as the order of the saved data when the file was originally written!
 
      */
@@ -143,10 +127,7 @@ public class OtherStreamTest {
         System.out.println("name = " + name);
         System.out.println("age = " + age);
         System.out.println("isMale = " + isMale);
-
         //3.
         dis.close();
-
     }
-
 }

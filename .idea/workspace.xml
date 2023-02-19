@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93e09333-fac4-418c-a078-3c550612b604" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/InputStreamReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/OtherStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/exer/MyInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ahmed/InputStreamReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/InputStreamReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ahmed/OtherStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/OtherStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +58,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Javad\IdeaProjects\JavaIOStream\src\main\java\dev\ahmed" />
       <recent name="C:\Users\Javad\IdeaProjects\JavaIOStream\src\main\java\dev\ahmed\exer" />
+      <recent name="C:\Users\Javad\IdeaProjects\JavaIOStream\src\main\java\dev\ahmed" />
       <recent name="C:\Users\Javad\IdeaProjects\JavaIOStream" />
     </key>
   </component>
@@ -144,7 +145,7 @@
       <workItem from="1676661970646" duration="113000" />
       <workItem from="1676662097036" duration="3808000" />
       <workItem from="1676795956468" duration="101000" />
-      <workItem from="1676796065322" duration="9692000" />
+      <workItem from="1676796065322" duration="14237000" />
     </task>
     <task id="LOCAL-00001" summary="finished MyProject">
       <created>1676324241431</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676823641905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Video day26 video21">
+      <created>1676824950868</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676824950868</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +225,7 @@
     <MESSAGE value="I/O Stream . Video day26 video14" />
     <MESSAGE value="I/O Stream . Video day26 video18" />
     <MESSAGE value="add wordcount method . Video day26 video19" />
-    <option name="LAST_COMMIT_MESSAGE" value="add wordcount method . Video day26 video19" />
+    <MESSAGE value="Video day26 video21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Video day26 video21" />
   </component>
 </project>

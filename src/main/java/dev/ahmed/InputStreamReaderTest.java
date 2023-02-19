@@ -18,12 +18,14 @@ import java.io.*;
     * 4. Character set
 
      ASCII: American Standard Code for Information Interchange.
-         It can be represented by 7 bits of a byte.
+            It can be represented by 7 bits of a byte.
      ISO8859-1: Latin code table. Eurocode
-         Represented by 8 bits of a byte.
+            Represented by 8 bits of a byte.
      GB2312: Chinese code table for China. Up to two bytes encode all characters
-     GBK: China's Chinese code table has been upgraded to incorporate more Chinese characters and symbols. Up to two byte encoding
-     Unicode: International Standard Code, which combines all the characters currently used by humans. Assign a unique character code to each character. All text is represented by two bytes.
+     GBK: China's Chinese code table has been upgraded to incorporate more Chinese characters and symbols.
+            Up to two byte encoding
+     Unicode: International Standard Code, which combines all the characters currently used by humans.
+            Assign a unique character code to each character. All text is represented by two bytes.
      UTF-8: A variable-length encoding method, which can represent a character with 1-4 bytes.
 
  * @author ahmed Bughra
