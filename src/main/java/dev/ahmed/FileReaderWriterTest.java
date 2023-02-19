@@ -7,19 +7,19 @@ import java.io.*;
 
 /**
  *
- * 1. Stream classification:
- * 1. Operation data unit: byte stream, character stream
- * 2. Data flow: input stream, output stream
- * 3. The role of flow: node flow, processing flow
- *
+ * First, Stream classification:
+     * 1. Operation data unit: byte stream, character stream
+     * 2. Data flow: input stream, output stream
+     * 3. The role of flow: node flow, processing flow
+
  * Second, the architecture of the flow
- * Abstract base class node stream (or file stream) buffer stream (a kind of processing stream)
- * InputStream     FileInputStream   (read(byte[] buffer))        BufferedInputStream (read(byte[] buffer))
- * OutputStream    FileOutputStream  (write(byte[] buffer,0,len)  BufferedOutputStream (write(byte[] buffer,0,len) / flush()
- * Reader          FileReader (read(char[] cbuf))                 BufferedReader (read(char[] cbuf) / readLine())
- * Writer          FileWriter (write(char[] cbuf,0,len)           BufferedWriter (write(char[] cbuf,0,len) / flush()
- *
- *
+     * Abstract base class node stream (or file stream) buffer stream (a kind of processing stream)
+     * InputStream     FileInputStream   (read(byte[] buffer))        BufferedInputStream (read(byte[] buffer))
+     * OutputStream    FileOutputStream  (write(byte[] buffer,0,len)  BufferedOutputStream (write(byte[] buffer,0,len) / flush()
+     * Reader          FileReader (read(char[] cbuf))                 BufferedReader (read(char[] cbuf) / readLine())
+     * Writer          FileWriter (write(char[] cbuf,0,len)           BufferedWriter (write(char[] cbuf,0,len) / flush()
+
+
  *
  * @author ahmed Bughra
  * @create 2023 02 17
@@ -46,21 +46,21 @@ public class FileReaderWriterTest {
     public void testFileReader(){
         FileReader fr = null;
         try {
-            //1. Instantiate the object of the File class and specify the file to be operated
+    // 1. Instantiate the object of the File class and specify the file to be operated
             File file = new File("hello.txt");//Compared to the current Module
-            //2. Provide a specific stream
+    //2. Provide a specific stream
             fr = new FileReader(file);
 
-            //3. Data reading
+    //3. Data reading
             //read(): Returns a character read in. Returns -1 if end of file is reached
             //method one:
-// int data = fr. read();
-// while(data != -1){
-// System.out.print((char)data);
-// data = fr. read();
-// }
+            // int data = fr. read();
+            // while(data != -1){
+            // System.out.print((char)data);
+            // data = fr. read();
+            // }
 
-            //Method 2: Grammatically modified for Method 1
+            //Method two: syntax modified for Method 1
             int data;
             while((data = fr.read()) != -1){
                 System.out.print((char)data);
@@ -68,13 +68,13 @@ public class FileReaderWriterTest {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            //4. The closing operation of the stream
-// try {
-// if(fr != null)
-// fr. close();
-// } catch (IOException e) {
-// e. printStackTrace();
-// }
+    //4. The closing operation of the stream
+            // try {
+            // if(fr != null)
+            // fr. close();
+            // } catch (IOException e) {
+            // e. printStackTrace();
+            // }
             //or
             if(fr != null){
                 try {
@@ -92,30 +92,30 @@ public class FileReaderWriterTest {
     public void testFileReader1() {
         FileReader fr = null;
         try {
-            //1.Instantiation of the File class
+    //1.Instantiation of the File class
             File file = new File("hello.txt");
 
-            //2. Instantiation of the FileReader stream
+    //2. Instantiation of the FileReader stream
             fr = new FileReader(file);
 
-            //3. Read operation
+    //3. Read operation
             //read(char[] cbuf): Returns the number of characters read into the cbuf array each time. Returns -1 if end of file is reached
             char[] cbuf = new char[5];
             int len;
             while((len = fr. read(cbuf)) != -1){
                 //method one:
                 //wrong wording
-// for(int i = 0;i < cbuf.length;i++){
-// System.out.print(cbuf[i]);
-// }
-                //Correct spelling
-// for(int i = 0;i < len;i++){
-// System.out.print(cbuf[i]);
-// }
+                // for(int i = 0;i < cbuf.length;i++){
+                // System.out.print(cbuf[i]);
+                // }
+                                //Correct spelling
+                // for(int i = 0;i < len;i++){
+                // System.out.print(cbuf[i]);
+                // }
                 //Method 2:
                 //Wrong way of writing, corresponding to the way of wrong way of writing
-// String str = new String(cbuf);
-// System.out.print(str);
+                // String str = new String(cbuf);
+                // System.out.print(str);
                 //Correct spelling
                 String str = new String(cbuf,0,len);
                 System.out.print(str);
@@ -124,7 +124,7 @@ public class FileReaderWriterTest {
             e.printStackTrace();
         } finally {
             if(fr != null){
-                //4. Close the resource
+    //4. Close the resource
                 try {
                     fr.close();
                 } catch (IOException e) {
@@ -138,14 +138,13 @@ public class FileReaderWriterTest {
     /*
        Write data from memory to a file on disk.
 
-       illustrate:
+       Description:
        1. For output operations, the corresponding File may not exist. will not report an exception
        2.
             If the file in the hard disk corresponding to File does not exist, this file will be created automatically during the output process.
             If the file in the hard disk corresponding to File exists:
                    If the constructor used by the stream is: FileWriter(file,false) / FileWriter(file): Overwrite the original file
                    If the constructor used by the stream is: FileWriter(file,true): the original file will not be overwritten, but the content will be appended to the original file
-
         */
     @Test
     public void testFileWriter() {
