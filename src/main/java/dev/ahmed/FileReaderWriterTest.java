@@ -14,6 +14,7 @@ import java.io.*;
 
  * Second, the architecture of the flow
      * Abstract base class node stream (or file stream) buffer stream (a kind of processing stream)
+
      * InputStream     FileInputStream   (read(byte[] buffer))        BufferedInputStream (read(byte[] buffer))
      * OutputStream    FileOutputStream  (write(byte[] buffer,0,len)  BufferedOutputStream (write(byte[] buffer,0,len) / flush()
      * Reader          FileReader (read(char[] cbuf))                 BufferedReader (read(char[] cbuf) / readLine())
