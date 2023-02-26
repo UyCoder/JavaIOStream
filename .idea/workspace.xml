@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93e09333-fac4-418c-a078-3c550612b604" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/exer/MyInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ahmed/InputStreamReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/InputStreamReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ahmed/OtherStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/OtherStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Javad\IdeaProjects\JavaIOStream\src\main\java\dev\ahmed\exer" />
@@ -145,7 +142,8 @@
       <workItem from="1676661970646" duration="113000" />
       <workItem from="1676662097036" duration="3808000" />
       <workItem from="1676795956468" duration="101000" />
-      <workItem from="1676796065322" duration="14237000" />
+      <workItem from="1676796065322" duration="14258000" />
+      <workItem from="1676847654898" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="finished MyProject">
       <created>1676324241431</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676824950868</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish day26">
+      <created>1676840098948</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676840098948</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +231,7 @@
     <MESSAGE value="I/O Stream . Video day26 video18" />
     <MESSAGE value="add wordcount method . Video day26 video19" />
     <MESSAGE value="Video day26 video21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Video day26 video21" />
+    <MESSAGE value="finish day26" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish day26" />
   </component>
 </project>
